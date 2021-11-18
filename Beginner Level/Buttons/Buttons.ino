@@ -8,7 +8,6 @@ void setup() {
 
 void loop() {
   buttonState = digitalRead(buttonPin);
-   
   if(buttonState == HIGH) {
     digitalWrite(LED_BUILTIN, HIGH);
   } else {
